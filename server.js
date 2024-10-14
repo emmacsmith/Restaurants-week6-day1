@@ -3,7 +3,7 @@ const db = require("./db/connection");
 const port = 3000;
 
 //TODO: Create your GET Request Route Below: 
-
+//create a new endpoint 
 
 app.listen(port, () => {
     db.sync();
